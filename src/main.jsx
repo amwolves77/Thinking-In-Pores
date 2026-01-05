@@ -1,8 +1,12 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
+function App() {
+  return <h1>Hello from my app ✅</h1>;
+}
+
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <h1>It works 🎉</h1>
+    <App />
   </React.StrictMode>
 );
