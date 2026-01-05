@@ -1,11 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import App from "./main.jsx";
-
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <h1>It works 🎉</h1>
   </React.StrictMode>
 );
-
